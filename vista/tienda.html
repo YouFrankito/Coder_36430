@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Tienda</title>
+</head>
+<body>
+  <div class="body-tienda">
+    <h1><center>Bienvenido a nuestra tienda.</center></h1>
+    <p><center>Aquí podras adquirir nuestro servicios.</center></p>
+    <center>
+    <form class="body-tienda" action="" method="GET" enctype="text/plain">
+        <div>
+            <leabel class="NombreTienda" for="userName">Nombre:</leabel>
+            <div>
+                <input type="text" name="userName" id="userName" required>
+            </div>
+        </div>
+        <div>
+            <leabel class="ApellidoTienda" for="userLastName">Apellido:</leabel>
+            <div>
+                <input type="text" name="userLastName" id="userLastName" required>
+            </div>
+        </div>
+        <div>
+            <leabel class="MailTienda" for="userMail">Mail:</leabel>
+            <div>
+                <input type="text" name="userMail" id="userMail" required>
+            </div>
+        </div>
+        <div>
+            <leabel class="NumTienda" for="userNum">Numero - WhatsApp:</leabel>
+            <div>
+                <input type="text" name="userNum" id="userNum" required>
+            </div>
+        </div>
+        <span>¿Que servicio desea adquirir?</span>
+        <div class="ServicioAdquirir">
+            <textarea class="TextoServicio"></textarea>  
+        </div>
+        <span>Cuentanos un poco de que quieres realizar en tu proyecto.</span>
+        <div class="ServicioAdquirir">
+            <textarea class="TextoServicio"></textarea>  
+        </div>
+        <div>
+            <leabel class="NumTienda" for="userNum">¿Cuanto desea invertir en su proyecto?:</leabel>
+            <div>
+                <input type="text" name="userNum" id="userNum" required>
+            </div>
+        </div>
+        <input type="submit" value="Enviar">
+    </form></center>
+ </div>  
+</body>
+</html>
